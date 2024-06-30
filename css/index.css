@@ -1,0 +1,13 @@
+nav#nav-header{
+    background-image:linear-gradient(to right, rgb(21, 63, 189), rgb(17, 172, 17) );
+}
+
+a{
+    color: white;
+}
+
+img#imagen-header{
+    height: 40vh;
+    width: 100vw;
+    object-fit: cover;
+}
