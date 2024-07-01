@@ -2,6 +2,10 @@ nav#nav-header{
     background-image: linear-gradient(to right, #FF4B91 100%, #cf3872 );
 }
 
+h1{
+    color: #FF7676;
+}
+
 a{
     color: white;
 }
@@ -36,4 +40,28 @@ p {
     text-align: start; 
     text-indent: 20px;
   }
+
+section#servicos{
+    background-color: #FF4B91;
+    padding: 20px;
+    
+}
+
+div#div-servicos{
+    background-color: #FFCD4B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li{
+    padding: 5px;
+}
+
+footer{
+    background-color: #0802A3;
+}
+
+footer  P{
+    color: white;
+}
   
