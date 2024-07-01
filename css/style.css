@@ -1,6 +1,6 @@
 html, body{
     height: 100vh;
-    background-image: linear-gradient(to right, darkblue, rgb(25, 164, 15));
+    background-image: linear-gradient(to right, #f5ec38, #32a9e9);
 }
 
 main{

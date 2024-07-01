@@ -1,5 +1,5 @@
 nav#nav-header{
-    background-image:linear-gradient(to right, rgb(21, 63, 189), rgb(17, 172, 17) );
+    background-image: linear-gradient(to right, #FF4B91 100%, #cf3872 );
 }
 
 a{
@@ -10,4 +10,30 @@ img#imagen-header{
     height: 40vh;
     width: 100vw;
     object-fit: cover;
+    object-position: center;
 }
+
+img#foto-cachorro-banho{
+    height: 53vh;
+    object-fit: cover;
+}
+
+main{
+    background-color: #FFCD4B;
+}
+
+div#sobre{
+    background-color: white;
+    border-radius: 20px;
+}
+
+div#carrosel{
+    border-radius: 20px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: start; 
+    text-indent: 20px;
+  }
+  
