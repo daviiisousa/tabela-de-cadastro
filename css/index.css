@@ -48,12 +48,16 @@ p {
     line-height: 1.6;
     text-align: start; 
     text-indent: 20px;
-  }
+}
 
 section#servicos{
     background-color: #FF4B91;
-    padding: 20px;
-    
+    padding: 20px; 
+}
+
+h1#h1-section{
+    padding: 10px;
+    color: #FFCD4B;
 }
 
 div.card{
@@ -64,6 +68,7 @@ div.card:hover{
     background-color: #FF4B91;
     transform: scale(1.1);
     transition: 0.6s;
+    color: #FFCD4B;
 }
 
 img#namaria{
@@ -81,6 +86,17 @@ div#div-servicos{
 
 li{
     padding: 5px;
+}
+
+div#produtos{
+    background-color: #e3b541;
+    padding: 20px;
+    border-radius: 10px;
+}
+img.foto-grande{
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
 }
 
 footer{
