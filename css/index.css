@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&display=swap');
+
+*{
+    font-family: "Acme", sans-serif;
+}
+
+
 nav#nav-header{
     background-image: linear-gradient(to right, #FF4B91 100%, #cf3872 );
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
     color: #FF7676;
+    font-family: "Concert One", sans-serif;
 }
 
 a{
@@ -46,6 +55,23 @@ section#servicos{
     padding: 20px;
     
 }
+
+div.card{
+    transition: 0.6s;
+}
+
+div.card:hover{
+    background-color: #FF4B91;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+img#namaria{
+    height: 190px;
+    object-fit: cover;
+    object-position: top;
+}
+
 
 div#div-servicos{
     background-color: #FFCD4B;
