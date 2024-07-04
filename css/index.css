@@ -106,4 +106,9 @@ footer{
 footer  P{
     color: white;
 }
+
+img.logo{
+    width: 3vw;
+    border-radius: 50%;
+}
   
